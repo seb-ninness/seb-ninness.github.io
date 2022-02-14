@@ -51,10 +51,6 @@ ul.directory {
     align-content: flex-start;
     padding-left: 0px;
 }
- .list-directory {
-    display: 
-
-}
 .main-heading {
     color: rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
@@ -87,7 +83,11 @@ ul.directory {
 }
 @media (max-width: 600px) {
     ul.directory {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
 }}
 
 /* Comment Start of Blog Homepage CSS */
@@ -95,7 +95,8 @@ ul.directory {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
-    
+
+
 }
 
 .blog-heading { 
@@ -107,4 +108,17 @@ ul.directory {
     float: left;
 }
 /* Comment Start of Blog margin,padding,border */
+#MBP-content {
+    display: flex;
+    flex-direction: column;
+}
 
+.MBP-article {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 20px;
+}
+
+.MBP-figure {
+    width: 50%;
+    align-self: center;
+}
