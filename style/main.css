@@ -1,5 +1,15 @@
 body {
-    background-color: rgba(56, 134, 56, 0.548);
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+
+body {
+    background-color: rgba(115, 198, 236, 0.548);
 }
 a:link { 
     color: black;
@@ -16,13 +26,14 @@ a:visited {
 }
 
 li {
+    font-family: 'Roboto Condensed', sans-serif;
     list-style: none;
     padding: 10px;
     text-decoration: none;   
 }
 
-.home-main {
-    height: 100px;
+#home-main {
+    height: 80px;
 }
 .home-image{
     border: black;
@@ -38,19 +49,23 @@ ul.directory {
     justify-content: space-evenly;
     text-align: center;
     align-content: flex-start;
+    padding-left: 0px;
 }
-.list-directory {
-    flex-direction: column;
-    flex-wrap: wrap;
+ .list-directory {
+    display: 
+
 }
 .main-heading {
     color: rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
     float: right;
-    padding: 0px 20px;
+    margin-right: 20px;
 }
 #SN-heading {
     font-size: 6vw;
+}
+#Student-heading {
+    font-size: 3vw;
 }
 #featured-work {
     text-align: center;
@@ -62,9 +77,34 @@ ul.directory {
     height: auto;
     max-width: 100%;
 }
+.footer-home {
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+#top {
+    float: right;
+}
 @media (max-width: 600px) {
     ul.directory {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
+        display: block;
+}}
+
+/* Comment Start of Blog Homepage CSS */
+#blog-main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    
 }
+
+.blog-heading { 
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    flex-basis: 80%;
+}
+.navbar-blog {
+    float: left;
+}
+/* Comment Start of Blog margin,padding,border */
+
