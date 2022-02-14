@@ -4,15 +4,15 @@ body {
 a:link { 
     color: black;
     cursor: pointer;
-    text-decoration-style: none;
+    text-decoration: none;
 }
 a:hover {
     color: white;
-    text-decoration-style: none;
+    text-decoration: none;
 }
 a:visited {
     background-color: cornsilk;
-    text-decoration-style: none;
+    text-decoration: none;
 }
 
 li {
@@ -20,6 +20,7 @@ li {
     padding: 10px;
     text-decoration: none;   
 }
+
 .home-main {
     height: 100px;
 }
@@ -32,9 +33,12 @@ li {
     padding: 2px 2px 2px 12px;
     margin: 0px 0px 0px 4px;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.75);
-    height: auto;
 }
-
+ul.directory {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
 .main-heading {
     color: rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
@@ -48,10 +52,10 @@ li {
     text-align: center;
 }
 
-
 #seatoun-img {
     display: block;
     margin: none;
     height: auto;
     max-width: 100%;
 }
+
