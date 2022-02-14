@@ -28,16 +28,20 @@ li {
     border: black;
 }
 .navlinks li {
-    display: inline;
+    display: flex;
     float: left;
-    padding: 2px 2px 2px 12px;
-    margin: 0px 0px 0px 4px;
-    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.75);
+    margin: px;
+    position: -webkit-sticky;
 }
 ul.directory {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    align-content: flex-start;
+}
+.list-directory {
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .main-heading {
     color: rgb(0, 0, 0);
@@ -58,4 +62,9 @@ ul.directory {
     height: auto;
     max-width: 100%;
 }
-
+@media (max-width: 600px) {
+    ul.directory {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+}
