@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(56, 134, 56, 0.548);
+}
+
+a { 
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    
+}
+.navlinks li {
+    display: inline;
+    float: left;
+    padding: 2px 2px 2px 12px;
+    margin: 0px 0px 0px 4px;
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+}
+
+.main-heading {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    float: right;
+    padding: 0px 20px;
+}
+#SN-heading {
+    font-size: 6vw;
+}
+#featured-work {
+    text-align: center;
+}
+
+
+#seatoun-img {
+    display: block;
+    margin: 20px 0px;
+    height: auto;
+    max-width: 100%;
+}
