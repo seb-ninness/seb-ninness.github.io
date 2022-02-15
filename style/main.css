@@ -19,9 +19,9 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
-    transform: scale(1.5);
+    transform: scale(1.6);
 }
 a:visited {
     background-color: cornsilk;
