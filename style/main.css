@@ -6,7 +6,9 @@ img {
     width: 100%;
     display: block;
 }
-
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 body {
     background-color: rgba(115, 198, 236, 0.548);
@@ -19,6 +21,7 @@ a:link {
 a:hover {
     color: white;
     text-decoration: none;
+    transform: scale(1.5);
 }
 a:visited {
     background-color: cornsilk;
@@ -39,9 +42,9 @@ li {
     border: black;
 }
 .navlinks li {
-    display: flex;
+    display: block;
     float: left;
-    margin: px;
+    margin: 0px 10px;
     position: -webkit-sticky;
 }
 ul.directory {
@@ -51,12 +54,13 @@ ul.directory {
     align-content: flex-start;
     padding: 0px 20px;
     flex-wrap: wrap;
-    margin: 10px 0px;
+    margin: 20px 0px;
+    
     
 }
 li.li-directory {
     box-shadow: 10px 10px 5px 8px rgba(0,0,0,0.75);;
-    margin: 10px;
+    margin: 20px 10px;
 }
 .main-heading {
     color: rgb(0, 0, 0);
@@ -88,20 +92,18 @@ li.li-directory {
 #top {
     float: right;
 }
-/* @media (max-width: 600px) {
-    ul.directory {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-}}
+@media (max-width: 400px) {
+.navlinks li {
+    font-size: 3vw;
+}
+}
 
 /* Comment Start of Blog Homepage CSS */
 #blog-main {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
+    margin-right: 20px;
 
 
 }
@@ -138,5 +140,5 @@ li.li-directory {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 0px 80px;
+    padding: 0px 50px;
 }
