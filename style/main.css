@@ -61,6 +61,7 @@ ul.directory {
 li.li-directory {
     box-shadow: 10px 10px 5px 8px rgba(0,0,0,0.75);;
     margin: 20px 10px;
+    background-color: rgb(255, 255, 255);
 }
 .main-heading {
     color: rgb(0, 0, 0);
