@@ -21,18 +21,22 @@ a:link {
 a:hover {
     color: rgb(255, 0, 0);
     text-decoration: none;
-    transform: scale(1.6);
 }
 a:visited {
     background-color: cornsilk;
     text-decoration: none;
+}
+.navlinks li:hover {
+    transform:scale(1.2);
+    transition: 1s ease;
 }
 
 li {
     font-family: 'Roboto Condensed', sans-serif;
     list-style: none;
     padding: 10px;
-    text-decoration: none;   
+    text-decoration: none; 
+      
 }
 
 #home-main {
@@ -46,6 +50,10 @@ li {
     float: left;
     margin: 0px 10px;
     position: -webkit-sticky;
+}
+li.li-directory:hover{
+    transform:scale(1.1);
+    transition: 1s ease;
 }
 ul.directory {
     display: flex;
