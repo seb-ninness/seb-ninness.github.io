@@ -151,3 +151,8 @@ li.li-directory {
     flex-direction: column;
     padding: 0px 50px;
 }
+/* Javascript Dom */
+
+#javascript-screenshot {
+    width: 60%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/SN.png" type="image/x-icon">
+    <title>Seb Ninness Javascript DOM</title>
+</head>
+<body>
+    <div id="blog-main">
+        <div class="blog-heading">
+          <h1 id="SN-heading">Javascript Fundamentals</h1>
+        </div>
+        <div class="navbar-blog">
+          <nav class="navlinks">
+            <ul>
+              <li> <a href="mailto:seb.ninness12@gmail.com">Contact Me</a></li>
+              <li><a href="../index.html">Home</a></li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+    <div id="LP-content">
+      <article class="LP-article">
+        <h3>An analogy to describe the differences between HTML and CSS</h3>
+        <p>HTML and CSS are the core building blocks to building a website. Lets imagine you are wanting to start a cafe and you need to set up the layout of the cafe. You have a list of things you will need for the cafe and so you start gathering these things into suitable locations. You will need seats and tables, a counter to order at, a space for the kitchen and a space for the coffee machine. These features are organizing the cafe just as HTML organizes a webpage with elements to set up the structure. 
+        </p>
+        <p>This is great but what have we envisioned for our cafe? We want to open up a cafe that looks fantastic and people want to come and enjoy a coffee in a nice environment. This also takes planning, else we will be left with a run of the mill cafe. CSS is used to interact with the HTML document to style the webpage. We know we need a coffee machine but what do we want our coffee machine to look like? Using CSS is how we get the webpage to be designed as we would like.
+        </p>
+      </article>
+      <article class="LP-article">
+        <h3>Control flow and loops</h3>
+        <p>Control flow in Javascript works by executing code in a path from top to bottom unless there is a condition set. Such a condition may be  an If , Else condition that tells the code hold on a second we have a couple options here due to some defined parameters. An example of this is at our cafe we have customers who come to order. It would be easy to offer them all the same coffee, say a long black. However some people do not drink black coffee. IF the customer wants a white coffee serve them a (‘Flat White’) Else If the customer wants a black coffee serve them a (‘Long Black’) Else (they don’t like coffee). A loop is a great way to execute some code without having to repeatedly state it. If we had a regular customer and we know what their coffee order is we can then set this data into an array and use a For condition to loop through when this customer enters the cafe. For ‘Sam’ make an Americano and we don’t have to ask him what he would like each time.  
+        </p>
+      </article>  
+      <article class="LP-article">
+        <h3>The Document object model (DOM)</h3>
+        <p>The DOM is an interface that lives in our browser showing the structure of our HTML document .  The DOM acts as an interface that we can use to manipulate the page's content, styles and structure with JavaScript by accessing HTML. In the example below you can see how an HTML element is able to be grabbed and then using the .innerHTML element we are able to change the text inside this Heading element. 
+        </p>
+        <img id="javascript-screenshot" src="../images/Javascript-DOM example.png" alt="Screenshot of getelementbyID">
+      </article>
+      <article class="LP-article">
+        <h3>Arrays and objects</h3>
+        <p>Arrays and objects are both used for holding data in Javascript. An array is an ordered collection of items which are stored in numerical position using “zero-based indexing” meaning that the first item in an array is actually in position 0. Here is what an Array looks like with a group of strings. 
+        </p><span>let array = [“this”, “is”, “a”, “string”]</span><p>To access the first item in an array it would look like this.</p><span>const firstItem = array[0].</span>
+        <p>Objects are used to store groups of data rather than single data values. An object could be anything that has a set of characteristics. An object is laid out like this:</p><span>let object = {hat: ‘green’, top: ‘pink’, shorts: ‘black’ }</span><p>and to access an object we can use dot notation or bracket notation.</p><span>const objectGreen = object.green   |  const objectGreen = object[‘green’]</span>
+      </article>
+        <article class="LP-article">
+          <h3>Functions</h3>
+          <p>A function is a block of code that we use to perform tasks. A function can perform a single task or multiple tasks. 
+          </p>
+          <span>function myFunction(p1, p2) {
+            return p1 * p2;}</span>
+          <p>If we enter myFunction with two data points it will return to us p1 multiplied by p2. The great thing about functions is once the function has been set up it can be executed as many times as wanted to keep performing a task, this is massively time saving.</p>
+      </article>
+    </div>
+    
+</body>
+</html>
