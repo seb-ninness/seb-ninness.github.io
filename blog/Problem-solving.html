@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/SN.png" type="image/x-icon">
+    <title>Seb Ninness Problem Solving</title>
+</head>
+<body>
+    <div id="blog-main">
+        <div class="blog-heading">
+          <h1 id="SN-heading">Problem Solving</h1>
+        </div>
+        <div class="navbar-blog">
+          <nav class="navlinks">
+            <ul>
+              <li> <a href="mailto:seb.ninness12@gmail.com">Contact Me</a></li>
+              <li><a href="../index.html">Home</a></li>
+            </ul>
+          </nav>
+        </div>
+    </div>
+    <div id="LP-content">
+      <article class="LP-article">
+        <h3>Got blocked on a simple problem.</h3>
+        <p>
+            I was starting off on the built-in-methods section of the Kata’s and the first problem was to use a function to take an array of strings and use the join method to join them together and return a complete word. I think this got my confidence up a little too high as I googled the method and was able to get the desired result. So I quickly moved on to the next question of using the map function to capitalize the first word of every letter, again I quickly started googling MDN web docs. I found .map to apply a function to every element in an array. I then found .split to create an array from a string and the .charAt and .toUpperCase methods to apply the upper case lettering to the first character in the element. 
+        </p>
+        <p>
+            It was looking kinda good at this point. I had almost everything I needed to create a capitalize function that could do the job. Well I started to write the code using these methods and got myself all muddled. I got console.logging and none of my outcomes were what I was expecting. I went back to various google searches and found a ton of information on methods I didn’t need to use. I was getting pretty frustrated at points. I took some time away from the computer and came back with a plan to go through my code step by step.
+        </p>
+        <p>
+            I never wrote any pseudocode to begin with and so when I started writing this the order of the methods I needed to use became obvious. First I would turn my array into a string .split(‘ ‘) then I would take my array and apply a method to every element in the array .map() which would return the charAT(0).toUpperCase() and lastly I would join(‘ ‘) up the arrays back into a string. I entered this and still wasn't quite right. With a console.log I was able to identify that I needed to rejoin the rest of the characters with .substr(1).  Making a plan before diving into google searches and writing code was a key missed step for me here. You don’t want to be in a position where you have written a function with a bunch of methods that you don't know what should be the result step by step. I now try to make a pseudocode plan before every problem.
+        </p>
+      </article>
+      <article class="LP-article">
+        <h3>Solved a problem in an elegant way.</h3>
+        <p>
+            I was pretty happy with how I solved the FizzBuzz challenge in the Sprint 4 Javascript Kata. Unlike the problem above where I got myself blocked by racing into a problem before making a plan on how to solve the problem. I took my time and spent about 20 minutes writing the pseudocode I thought I would need to solve this problem.  I then went through step by step and wrote the code googling any operators or statements I needed for that line of pseudocode. Checking off the line of pseudocode as I went. The result was just as expected and I felt amazing. See pseudocode below, note: spoiler if you haven't done the fizz buzz challenge yet.
+        </p>
+        <figure class="PS-figure">
+            <img src="../images/Psuodocode.png" alt="Image of my pseudocode">
+        </figure>
+      </article>
+    </div>
+    
+</body>
+</html>
